@@ -8,9 +8,9 @@ func main() {
 
 	fmt.Printf("i = %d, %T\n", i, i)
 	p = &i
-	fmt.Printf("p = %x, %T\n", p, p)
+	fmt.Printf("p = %p, %T\n", p, p)
 	*p = 15
 	fmt.Printf("i = %d, %T\n", i, i)
-	fmt.Printf("p = %x, %T\n", p, p)
+	fmt.Printf("p = %p, %T\n", p, p)
 
 }
