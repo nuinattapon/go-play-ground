@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"stringutil"	
+
+	"github.com/nuinattapon/go-play-ground/learning_go/Solutions/Ch06/06_03/stringutil"
 )
 
 func main() {
